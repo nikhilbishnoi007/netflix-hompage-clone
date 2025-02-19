@@ -1,0 +1,350 @@
+body{
+    background-color: #000;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+}
+.nav ul{
+    display: flex;
+    position: relative;
+    right: 100px;
+}
+.nav ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+.box1{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+.logo{
+    position: relative;
+    right: 650px;
+
+}
+.logo img{
+    filter: opacity(0.88);
+    width: 180px;
+    height: 100px;
+}
+header .backgroundimage{
+    width: 100%;
+    background-image: url("netflix\ backgeound\ image.jpg");
+    height:90vh;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: -490px;
+    z-index: -1;
+    opacity: 0.4;
+    /* position: fixed; */
+    /* margin: 0; */
+}
+.two{
+    border-radius: 5px;
+    border: 1px solid #e50914;
+     background-color:#e50914;
+     color: white;
+     width: 80px;
+     height: 35px;
+     cursor: pointer;
+}
+.two:hover{
+    background-color: rgb(192, 8, 8);
+    transition: 0.5s;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+.h1 h1{
+    font-size: 50px;
+}
+.h1second{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    position: relative;
+    top: -50px;
+    height: 50px;
+}
+.h1second h1{
+    font-size: 50px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.email input{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.8;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.three{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.three:hover{
+    background-color: rgb(192, 8, 8);
+    transition: 0.5s;
+}
+.one{
+    background-color: black;
+    color: white;
+    opacity: 0.75;
+    width:120px ;
+    height: 39px;
+    border: 1px solid black;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.box2{
+    background-color: black;
+    color: white;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: -490px;
+}
+.box2 h1{
+    position: relative;
+    left: 100px;
+}
+.four{
+    position: relative;
+    left: 100px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.five{
+    position: relative;
+    left: 100px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.movie ul{
+    display: flex;
+    position: relative;
+     top: -10px;
+}
+.movie ul li{
+    list-style-type:decimal;
+    margin: 10px;
+}
+.trending li img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.trending li img:hover{
+    transform: scale(1.09);
+}
+.movie{
+     position: relative;
+    width: 80dvw;
+    height: 350px;
+    /* border: 2px solid gray;
+    border-radius: 10px; */
+    margin-left: 70px;
+    margin-right: 70PX;
+    overflow:scroll;
+    top: 20px;
+    object-fit: fill;
+}
+.box3{
+    margin: 10px 100px;
+    position: relative;
+    top: -530px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 1fr;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+.item{
+    width: 220px;
+    height: 320px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #1d162a;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* position: relative; */
+}
+.heading{
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 50px;
+    position: relative;
+    top: -490px;
+}
+.heading h1{
+    position: relative;
+    left: 40px;
+}
+.item h1{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+   /* align-items: center;  */
+}
+.item1 p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.item2 p{
+    color: white;
+    margin-left: 10px;
+}
+.item3 p{
+    color: white;
+}
+.item4 p{
+    color: white;
+}
+.ask h1{
+    color: white;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    top: -490px;
+}
+.que{
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    padding-left:100px ;
+    position: relative;
+    top: -490px;
+}
+.question{
+    width: 70vw;
+    height: 80px;
+    border: 2px solid gray;
+    background-color:#2d2d2d;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.question:hover{
+    background-color: grey;
+    transition: 1s;
+    /* height: 200px; */
+
+}
+.restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -490px;
+}
+.email2{
+    position: relative;
+    top: -490px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    /* padding-left:12px; */
+}
+.email2 input{
+      width: 500px;
+      height: 50px;
+      background-color: black;
+      border: 1px solid gray;
+      border-radius: 5px;
+}
+.email2 button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#e50914;
+    color: white;
+    border: 1px solid #e50914;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+.email2 button:hover{
+    background-color: darkred;
+    transition: 0.5s;
+}
+footer .foot{
+position: relative;
+top: -490px;
+display: grid;
+grid-template-columns: 250px 250px 250px 250px;
+grid-template-rows: 200px;
+left: 100px;
+}
+footer .foot .anchor{
+    width: 130px;
+    height: 200px;
+    /* border: 2px solid gray; */
+
+}
+footer .foot .anchor a{
+    color: gray;
+}
+footer p{
+    color: white;
+    position: relative;
+    top: -490px;
+}
+.line{
+    width: 100vw;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: gray;
+}
